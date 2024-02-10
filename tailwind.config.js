@@ -13,8 +13,11 @@ export default {
       // ******** color **********
       colors: {
         'hoverColor': '#1BBF00',
-        'NavBG': 'rgba(22, 12, 109, 0.5);',
-        'bannerOverlay' :'rgba(106, 98, 197, 0.905);',
+        'NavBG': 'rgba(22, 12, 109, 0.5)',
+        'bannerOverlay' :'rgba(106, 98, 197, 0.905)',
+        'serviceColor' :'rgba(25, 191, 0, 0.3)',
+        'serviceHover' :'rgba(255, 255, 255, 0.3)',
+        'planTable' :'rgba(236, 237, 240, 0.5)',
       },
       fontFamily: {
         'sans': ['Open Sans', 'sans-serif'],

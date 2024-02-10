@@ -37,7 +37,7 @@ const Choose_Us = () => {
             <Paragraph className="font-paprika text-[18px] text-[#726E9E] pt-[9px] pb-[41px]">
               We are now a team of strategists, engineers, designers, and marketers who both use and develop technology for a variety of client needs.
             </Paragraph>
-            <Button className="w-[189px] py-[20px] text-white font-sans text-white text-[20px] bg-hoverColor rounded-full hover:border-[1px] hover:bg-transparent hover:border-hoverColor hover:text-hoverColor transition">
+            <Button className="w-[189px] py-[20px] text-white font-sans font-bold text-white text-[20px] bg-hoverColor rounded-full hover:border-[1px] hover:bg-transparent hover:border-hoverColor hover:text-hoverColor transition">
               Contuct Us
             </Button>
             <Image src={Choose_us_1} className="absolute top-[32px] left-[-377px] z-[10]"/>

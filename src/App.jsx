@@ -3,6 +3,9 @@ import Navbar from "./components/layout/Navbar"
 import Banner from './components/layout/Banner'
 import Facts from './components/layout/Facts'
 import Choose_Us from './components/layout/Choose_Us '
+import Services from './components/layout/Services'
+import Impacts from './components/layout/Impacts'
+import Plans from './components/layout/Plans'
 
 
 function App() {
@@ -21,6 +24,15 @@ function App() {
       </section>
       <section className='bg-[#F9F9FB]'>
         <Choose_Us/>
+      </section>
+      <section className='bg-[#F6F5FF]'>
+        <Services/>
+      </section>
+      <section className='pt-[100px] pb-[32px] relative'>
+        <Impacts/>
+      </section>
+      <section className='bg-[#F9F9FB]'>
+        <Plans/>
       </section>
     </div>
     </>
