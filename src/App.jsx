@@ -6,6 +6,9 @@ import Choose_Us from './components/layout/Choose_Us '
 import Services from './components/layout/Services'
 import Impacts from './components/layout/Impacts'
 import Plans from './components/layout/Plans'
+import Testimonials from './components/layout/Testimonials'
+import Blogs from './components/layout/Blogs'
+import Footer from './components/layout/Footer'
 
 
 function App() {
@@ -34,6 +37,15 @@ function App() {
       <section className='bg-[#F9F9FB]'>
         <Plans/>
       </section>
+      <section className='bg-[#F8F8FF]'>
+        <Testimonials/>
+      </section>
+      <section className='bg-[#F9F9FB]'>
+        <Blogs/>
+      </section>
+      <footer className='bg-[#48409C]'>
+        <Footer/>
+      </footer>
     </div>
     </>
   )
